@@ -119,14 +119,14 @@ def thtaht():
 
 #13
 @app.route('/startups/system')
-def thtaht():
+def system():
 	return render_template("system.html",
 		title = 'Find a System and Stick With It'
 		)
 
 #13
 @app.route('/startups/ginmagic')
-def thtaht():
+def ginmagic():
 	return render_template("ginmagic.html",
 		title = 'Gin, Magic, Music, and Spirit'
 		)
