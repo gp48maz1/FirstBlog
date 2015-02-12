@@ -31,7 +31,7 @@ def books():
 @app.route('/drinks')
 def drinks():
 	return render_template("drinks.html",
-		title = 'Books'
+		title = 'Drinks'
 		)
 
 #3
@@ -110,10 +110,24 @@ def hedgehog():
 ######################
 #######################################################################################
 
-#12
+#13
 @app.route('/books/thtaht')
 def thtaht():
 	return render_template("thtaht.html",
 		title = 'The Hard Thing About Hard Things'
+		)
+
+#13
+@app.route('/startups/system')
+def thtaht():
+	return render_template("system.html",
+		title = 'Find a System and Stick With It'
+		)
+
+#13
+@app.route('/startups/ginmagic')
+def thtaht():
+	return render_template("ginmagic.html",
+		title = 'Gin, Magic, Music, and Spirit'
 		)
 
